@@ -8,9 +8,7 @@ router = SimpleRouter()
 
 router.register(r'book', BookViewSet)
 
-urlpatterns = [
-    path('auth/', auth)
-]
+urlpatterns = []
 
 urlpatterns += router.urls
 
